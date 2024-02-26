@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int so1, so2, tich;
+	cout << "Chuong trinh tinh Tich 2 so\n";
+	cout << " Nhap so thu nhat : ";
+	cin >> so1;
+	cout << "Nhap so thu hai : ";
+	cin >> so2;
+	tich = so1 * so2;
+	cout << so1 << " * " << so2 << " = " << tich << endl;
+	return 0;
+}
